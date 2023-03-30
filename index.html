@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- se linkea el css -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iguanas</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+<!-- hoja de estilo -->
+    <script src="https://kit.fontawesome.com/a217f4f59f.js" crossorigin="anonymous"></script>
+<!-- link unico a mi cuenta con iconos en js -->
+</head>
+<body>
+    <header>
+        <h1>Iguanas</h1>
+        <div class="img">
+            <img src="assets/imgs/bg-header.jpg" alt="Iguanaheader" />
+        </div>
+    </header>
+<!-- clase con su titulo en encabezado -->
+<!-- foto de la iguana -->
+    <main>
+        <div class="contenido">
+
+            <div class="main">
+                <div class="parraph">
+                <p>La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda.</p>
+                <p>La alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.</p>
+                </div>
+                <div class="img">
+                    <img src="assets/imgs/iguana-1.jpg" alt="Iguana1" />
+                </div>
+            </div>
+<!-- clase main indicando que es el contenido -->
+            <article class="container">
+<!-- crea el article por temas de semantica -->
+                    <div class="cas">
+                        <h2>CARACTERÍSTICAS</h2>
+                    </div>
+<!-- escojo el h2 encerrado con un div paralelo a mis flex para dejarlo en la misma caja -->
+                        <div class="flex">
+<!-- creo la caja donde estaran mis 3 flex con sus links a el icono  -->
+                            <div class="eye">
+                                <i class="fa-solid fa-eye fa-3x"style='color: white'></i>
+<!-- selecciono el tamaño x3 por que quiero y por que puedo con color blanco para evitarme el lio de hacerlo despues -->
+                                <p>Tercer ojo</p>
+                            </div>
+                            <div class="peace">
+                                <i class="fa-brands fa-angellist fa-3x"style='color: white'></i>
+                                <p>Pacificas</p>
+                            </div>
+                            <div class="bush">
+                                <i class="fa-solid fa-paintbrush fa-3x"style='color: white'></i>
+                                <p>Cambian de color</p>
+                            </div>
+                        </div>
+            </article>
+            <section class="gallery">
+<!-- como son imagenes debemos ponerlo como section por temas de semantica -->
+                <div class="iguanas"><img src="/assets/imgs/iguana-2.jpg" alt="iguana de pie" /></div>
+                <div class="iguanas"><img src="/assets/imgs/iguana-3.jpg" alt="cabeza de iguana" /></div>
+                <div class="iguanas"><img src="/assets/imgs/iguana-4.jpg" alt="iguana desierto" /></div>
+            </section>
+        </div>
+            <footer>
+<!-- se escoge por footer por tema de semantica -->
+                <p>Visita
+                <a
+                href="https://www.anipedia.net/iguanas/iguana-verde/"
+                target="_blank">
+<!-- que se abra en una nueva pagina -->
+                https://www.anipedia.net/iguanas/iguana-verde/</a>
+                para conocer más.
+                </p>
+            </footer>
+    </main>
+
+<!-- clase footer con su link -->
+</body>
+</html>
